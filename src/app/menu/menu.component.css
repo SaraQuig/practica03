@@ -1,0 +1,10 @@
+.activo {
+    background-color: #ccc;
+}
+
+.activo a {
+    color: green;
+}
+a{
+    color: black;
+}

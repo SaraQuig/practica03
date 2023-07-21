@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Sara",
+        "username": "Sara Nicole",
+        "email": "squiguangod@est.ups.edu.ec"
+    },
+    {
+        "id": 2,
+        "name": "Maria",
+        "username": "Maria Nogales",
+        "email": "mnogales@est.ups.edu.ec"
+    },
+    {
+        "id": 3,
+        "name": "Marcos",
+        "username": "Marcos Morales",
+        "email": "mmorales@est.ups.edu.ec"
+    },
+    {
+        "id": 4,
+        "name": "Mateo",
+        "username": "Mateo Demian",
+        "email": "mparedesd@est.ups.edu.ec"
+    },
+    {
+        "id": 5,
+        "name": "Lorena",
+        "username": "Lorena Aguirre",
+        "email": "laguirre@est.ups.edu.ec"
+    },
+    {
+        "id": 6,
+        "name": "Daniela",
+        "username": "Daniela Perez",
+        "email": "dperez@est.ups.edu.ec"
+    }
+]

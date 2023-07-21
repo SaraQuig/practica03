@@ -8,3 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'practica03';
 }
+
+// import { GastoService } from '../gasto.service';
+// constructor(private gastoService: GastoService) {
+// }

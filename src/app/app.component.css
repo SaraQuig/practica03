@@ -1,0 +1,67 @@
+
+
+.container-1 {
+    width: 50%;
+    height: 100%;
+}
+
+.container-2 {
+    width: 50%;
+    height: 100%;
+}
+
+.padre-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilos para el contenedor principal */
+.container-1 {
+    position: relative;
+    /* Establecer posición relativa para que los elementos internos sean posicionados con respecto a este div */
+    max-width: 50%;
+    /* Puedes ajustar este valor según tus necesidades */
+    margin: 0 auto;
+    /* Centrar el contenedor en la página */
+    /* padding: 20px; */
+    /* Agregar un espaciado alrededor del contenido */
+}
+
+/* Estilos para la imagen */
+.container-1 img {
+    display: block;
+    /* Asegurarse de que la imagen sea un elemento de bloque */
+    width: 100%;
+    /* La imagen ocupará el 100% del ancho del contenedor */
+    height: auto;
+    /* La altura de la imagen se ajustará automáticamente proporcionalmente al ancho */
+}
+
+/* Estilos para el contenido de texto */
+.container-1 .desc {
+    position: absolute;
+    /* Posicionar el contenido de texto de forma absoluta dentro del contenedor */
+    top: 20%;
+    /* Alinear el contenido de texto en el centro vertical */
+    left: 50%;
+    /* Alinea el contenido de texto en el centro horizontal */
+    transform: translate(-50%, -50%);
+    /* Centrar el contenido de texto exactamente en el centro */
+    width: 80%;
+    /* Puedes ajustar este valor según tus necesidades */
+}
+
+.container-1 h1,
+.container-1 p {
+    margin: 10px 0;
+}
+
+/*Tamaños de titulo y parrafo*/
+.container-1 h1 {
+    font-size: 30px;
+}
+
+.container-1 p {
+    font-size: 18px;
+}
