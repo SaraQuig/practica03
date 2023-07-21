@@ -10,19 +10,16 @@ export class InformacionComponent implements OnInit {
     {
       gasto: 'Vivienda',
       descripcion: 'Vivienda',
-      informacionAdicional: 'Información adicional de vivienda...',
       imagen: '../assets/vivienda.jpg'
     },
     {
       gasto: 'Salud',
       descripcion: 'Salud',
-      informacionAdicional: 'Información adicional de salud...',
       imagen: '../assets/salud.jpg'
     },
     {
       gasto: 'Educación',
       descripcion: 'Educación',
-      informacionAdicional: 'Información adicional de educación...',
       imagen: '../assets/educacion.jpg'
     }
   ];
@@ -33,7 +30,7 @@ export class InformacionComponent implements OnInit {
   }
 
   informacion(deducible: any) {
-    alert('Esta es información adicional sobre ' + deducible.gasto + ':\n' + deducible.informacionAdicional);
+    alert('Esta es información adicional sobre ' + deducible.gasto );
   }
 
   borrarDeducible(deducible: any) {
